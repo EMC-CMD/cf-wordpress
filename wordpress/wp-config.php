@@ -59,6 +59,8 @@ define('SECURE_AUTH_SALT', 'put your unique phrase here');
 define('LOGGED_IN_SALT',   'put your unique phrase here');
 define('NONCE_SALT',       'put your unique phrase here');
 
+define('WP_CONTENT_DIR', '/mnt/data');
+
 /**#@-*/
 
 /**
@@ -91,3 +93,6 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+
+//define( 'UPLOADS', '/mnt/data/uploads' );

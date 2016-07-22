@@ -1,5 +1,5 @@
 ---
 applications:
-- name: vf-wordpress
+- name: magfs-wordpress
   path: wordpress/
-  buildpack: https://github.com/cloudfoundry/php-buildpack.git
+  buildpack: php_buildpack

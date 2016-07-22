@@ -424,6 +424,9 @@ class WP_Admin_Bar {
 			</div>
 			<?php if ( is_user_logged_in() ) : ?>
 			<a class="screen-reader-shortcut" href="<?php echo esc_url( wp_logout_url() ); ?>"><?php _e('Log Out'); ?></a>
+      <span><?php  echo "instance id: [" . $_ENV["CF_INSTANCE_INDEX"];?></span>
+			<span><?php  echo "] ip: [" . $_ENV["CF_INSTANCE_IP"] . "]";?></span>
+
 			<?php endif; ?>
 		</div>
 
