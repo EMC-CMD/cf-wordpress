@@ -2,4 +2,4 @@
 applications:
 - name: magfs-wordpress
   path: wordpress/
-  buildpack: php_buildpack
+  buildpack: https://github.com/cloudfoundry/php-buildpack.git
